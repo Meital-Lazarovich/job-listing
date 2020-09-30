@@ -1,5 +1,5 @@
 <template>
-    <section class="home container">
+    <section class="home">
         <JobList v-if="jobs && jobs.length" :jobs="jobs"></JobList>
     </section>
 </template>

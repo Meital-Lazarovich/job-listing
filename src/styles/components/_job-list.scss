@@ -1,5 +1,7 @@
 .job-list {
+    margin-bottom: rem(96px);
     .job-preview {
+        box-shadow: -3px 6px 9px 0px lighten($clr6, 40%);
         border-radius: 5px;
         padding: rem(32px) rem(40px);
         margin-bottom: rem(24px);
@@ -13,7 +15,8 @@
         }
         .info {
             .main {
-                .comp-name{
+                margin-bottom: rem(8px);
+                .comp-name {
                     color: $clr5;
                     font-size: em(14px);
                     margin-right: rem(16px);
@@ -25,20 +28,20 @@
                     color: $clr2;
                     border-radius: 15px;
                     text-transform: uppercase;
-                    &.new{
+                    &.new {
                         background-color: $clr5;
                     }
-                    &.featured{
+                    &.featured {
                         background-color: $clr4;
                     }
-                    
                 }
             }
             .title {
+                margin-bottom: rem(12px);
                 font-size: em(18px);
                 &:hover {
                     color: $clr5;
-                    transition: .3s
+                    transition: 0.3s;
                 }
             }
             .extra {
@@ -58,17 +61,72 @@
                 color: $clr5;
                 background-color: $clr3;
                 border-radius: 5px;
-                margin-left: rem(16px);
+                margin: rem(8px) 0 rem(8px) rem(16px);
                 &:hover {
                     color: $clr3;
                     background-color: $clr5;
-                    transition: .3s
+                    transition: 0.3s;
                 }
             }
         }
         &.marked {
             border-left: 5px solid $clr5;
             padding-left: rem(35px);
+            box-shadow: none;
+        }
+        @include for-narrow-layout {
+            flex-direction: column;
+            position: relative;
+            align-items: flex-start;
+            margin-bottom: rem(40px);
+            padding: rem(32px) rem(24px) rem(16px);
+            img {
+                height: rem(48px);
+                width: rem(48px);
+                position: absolute;
+                left: rem(24px);
+                top: rem(-24px);
+            }
+            .info {
+                border-bottom: rem(1px) solid $clr6;
+                padding-bottom: rem(16px);
+                width: 100%;
+                margin-bottom: rem(16px);
+                .main {
+                    margin-bottom: rem(12px);
+                    flex-wrap: wrap;
+                    .comp-name {
+                        font-size: em(13px);
+                    }
+                }
+                .title {
+                    margin-bottom: rem(14px);
+                    font-size: em(15px);
+                }
+                .extra {
+                    font-size: em(13px);
+                    span {
+                        margin: 0 rem(8px);
+                    }
+                }
+            }
+            .tags {
+                justify-content: flex-start;
+                div {
+                    margin: rem(8px) rem(16px) rem(8px) 0;
+                    &:hover {
+                        color: $clr3;
+                        background-color: $clr5;
+                        transition: 0.3s;
+                    }
+                }
+            }
+            &.marked {
+                padding-left: rem(19px);
+                img {
+                    left: rem(19px);
+                }
+            }
         }
     }
 }

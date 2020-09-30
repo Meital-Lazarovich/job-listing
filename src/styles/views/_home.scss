@@ -1,0 +1,6 @@
+.home {
+    padding: 0 rem(128px);
+    @include for-narrow-layout {
+        padding: 0 rem(24px);
+    }
+}

@@ -6,12 +6,6 @@
     }
 }
 
-@mixin for-med-layout {
-    @media (max-width: $break-med) {
-        @content;
-    }
-}
-
 /* -------------------------------- */
 
 @mixin flex-center {

@@ -1,7 +1,7 @@
 <template>
-    <section :class="['job-preview flex space-between', {marked: job.isFeatured}]">
+    <section :class="['job-preview flex space-between align-center', {marked: job.isFeatured}]">
         <img :src="imgSrc" :alt="job.comp.name" />
-        <div class="info flex column space-between">
+        <div class="info flex column">
             <p class="main bold flex align-center">
                 <span class="comp-name">{{ job.comp.name }}</span>
                 <span class="new flag flex-center" v-if="job.isNew">new!</span>
@@ -12,7 +12,7 @@
                 {{creationTime}}d ago<span>•</span>{{job.jobDef}}<span>•</span>{{job.loc}} 
             </div>
         </div>
-        <div class="tags flex align-center">
+        <div class="tags flex align-center wrap">
             <div class="bold pointer" v-for="(tag, idx) in job.tags" :key="idx">
                 {{ tag }}
             </div>
