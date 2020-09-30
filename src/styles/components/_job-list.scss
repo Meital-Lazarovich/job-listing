@@ -1,5 +1,65 @@
 .job-list {
     .job-preview {
-        padding: 32px 40px;
+        border-radius: 5px;
+        padding: rem(32px) rem(40px);
+        margin-bottom: rem(24px);
+        background-color: $clr2;
+        img {
+            margin-right: rem(24px);
+            height: rem(88px);
+            width: rem(88px);
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            .main {
+                .comp-name{
+                    color: $clr5;
+                    font-size: em(14px);
+                    margin-right: rem(16px);
+                }
+                .flag {
+                    font-size: em(11px);
+                    margin-right: rem(8px);
+                    padding: rem(6px) rem(8px) rem(4px);
+                    color: $clr2;
+                    border-radius: 15px;
+                    text-transform: uppercase;
+                    &.new{
+                        background-color: $clr5;
+                    }
+                    &.featured{
+                        background-color: $clr4;
+                    }
+                    
+                }
+            }
+            .title {
+                font-size: em(18px);
+            }
+            .extra {
+                font-size: em(15px);
+                color: $clr6;
+                span {
+                    margin: 0 rem(16px);
+                }
+            }
+        }
+        .tags {
+            flex-grow: 1;
+            justify-content: flex-end;
+            div {
+                padding: rem(8px) rem(8px);
+                font-size: em(13px);
+                color: $clr5;
+                background-color: $clr3;
+                border-radius: 5px;
+                margin-left: rem(16px);
+            }
+        }
+        &.marked {
+            border-left: 5px solid $clr5;
+            padding-left: rem(35px);
+        }
     }
 }

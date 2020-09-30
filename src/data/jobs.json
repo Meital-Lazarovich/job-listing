@@ -28,7 +28,7 @@
             "img": "photosnap.png"
         },
         "isNew": true,
-        "isFeatured": true,
+        "isFeatured": false,
         "title": "Senior Frontend Developer",
         "createdAt": 1601389934000,
         "jobDef": "Full Time",
