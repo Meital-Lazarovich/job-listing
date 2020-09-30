@@ -1,0 +1,20 @@
+[
+    {
+        "id": "r3Kw24",
+        "img": "../assets/101.png",
+        "comp": "Photosnap",
+        "isNew": true,
+        "isFeatured": true,
+        "title": "Senior Frontend Developer",
+        "createdAt": 1601369605,
+        "jobDef": "Full Time",
+        "loc": "USA only",
+        "tags": [
+            "Frontend",
+            "Senior",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]
