@@ -1,12 +1,36 @@
 [
     {
         "_id": "r3Kw24",
-        "img": "../assets/img/101.png",
-        "comp": "Photosnap",
+        "comp": {
+            "id": "ds75Wk",
+            "name": "Photosnap",
+            "img": "photosnap.png"
+        },
         "isNew": true,
         "isFeatured": true,
         "title": "Senior Frontend Developer",
-        "createdAt": 1601369605,
+        "createdAt": 1601389934000,
+        "jobDef": "Full Time",
+        "loc": "USA only",
+        "tags": [
+            "Frontend",
+            "Senior",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "_id": "r3Ks1dw24",
+        "comp": {
+            "id": "ds7sa5Wk",
+            "name": "Photosnap",
+            "img": "photosnap.png"
+        },
+        "isNew": true,
+        "isFeatured": true,
+        "title": "Senior Frontend Developer",
+        "createdAt": 1601389934000,
         "jobDef": "Full Time",
         "loc": "USA only",
         "tags": [

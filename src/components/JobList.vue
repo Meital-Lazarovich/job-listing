@@ -1,5 +1,5 @@
 <template>
-    <section class="job-list">
+    <section class="job-list flex column justify-center">
         <JobPreview v-for="job in jobs" :job="job" :key="job._id"></JobPreview>
     </section>
 </template>
