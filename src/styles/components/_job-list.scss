@@ -36,6 +36,10 @@
             }
             .title {
                 font-size: em(18px);
+                &:hover {
+                    color: $clr5;
+                    transition: .3s
+                }
             }
             .extra {
                 font-size: em(15px);
@@ -55,6 +59,11 @@
                 background-color: $clr3;
                 border-radius: 5px;
                 margin-left: rem(16px);
+                &:hover {
+                    color: $clr3;
+                    background-color: $clr5;
+                    transition: .3s
+                }
             }
         }
         &.marked {

@@ -7,13 +7,13 @@
                 <span class="new flag flex-center" v-if="job.isNew">new!</span>
                 <span class="featured flag flex-center" v-if="job.isFeatured">featured</span>
             </p>
-            <p class="title bold">{{ job.title }}</p>
+            <p class="title bold pointer">{{ job.title }}</p>
             <div class="extra">
                 {{creationTime}}d ago<span>•</span>{{job.jobDef}}<span>•</span>{{job.loc}} 
             </div>
         </div>
         <div class="tags flex align-center">
-            <div class="bold" v-for="(tag, idx) in job.tags" :key="idx">
+            <div class="bold pointer" v-for="(tag, idx) in job.tags" :key="idx">
                 {{ tag }}
             </div>
         </div>
