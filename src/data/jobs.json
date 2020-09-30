@@ -24,19 +24,59 @@
         "_id": "r3Ks1dw24",
         "comp": {
             "id": "ds7sa5Wk",
-            "name": "Photosnap",
-            "img": "photosnap.png"
+            "name": "Manage",
+            "img": "manage.png"
+        },
+        "isNew": true,
+        "isFeatured": true,
+        "title": "Fullstack Developer",
+        "createdAt": 1601389934000,
+        "jobDef": "Part Time",
+        "loc": "Remote",
+        "tags": [
+            "Fullstack",
+            "Midweight",
+            "Python",
+            "React"
+        ]
+    },
+    {
+        "_id": "r46851dw24",
+        "comp": {
+            "id": "ds453Wk",
+            "name": "Account",
+            "img": "account.png"
         },
         "isNew": true,
         "isFeatured": false,
-        "title": "Senior Frontend Developer",
-        "createdAt": 1601389934000,
-        "jobDef": "Full Time",
+        "title": "Junior Frontend Developer",
+        "createdAt": 1601303534000,
+        "jobDef": "Part Time",
         "loc": "USA only",
         "tags": [
             "Frontend",
-            "Senior",
-            "HTML",
+            "Junior",
+            "React",
+            "Sass",
+            "JavaScript"
+        ]
+    },
+    {
+        "_id": "r4684sR24",
+        "comp": {
+            "id": "ds4dE3Wk",
+            "name": "MyHome",
+            "img": "myHome.png"
+        },
+        "isNew": false,
+        "isFeatured": false,
+        "title": "Junior Frontend Developer",
+        "createdAt": 1601044334000,
+        "jobDef": "Contract",
+        "loc": "USA only",
+        "tags": [
+            "Frontend",
+            "Junior",
             "CSS",
             "JavaScript"
         ]

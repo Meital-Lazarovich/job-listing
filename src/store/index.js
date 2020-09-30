@@ -9,8 +9,8 @@ export default new Vuex.Store({
     jobs: []
   },
   mutations: {
-    setJobs(state) {
-      state.jobs = jobService.query();
+    setJobs(state, {filters}) {
+      state.jobs = jobService.query(filters);
     }
   },
   getters: {

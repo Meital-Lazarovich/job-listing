@@ -1,0 +1,19 @@
+.job-filter {
+    position: absolute;
+    top: rem(-116px);
+    background-color: $clr2;
+    height: rem(72px);
+    padding: rem(20px) rem(40px);
+    font-size: em(13px);
+    font-family: Spartan-Bold;
+    border-radius: 5px;
+
+    input {
+        display: block;
+        flex-grow: 1;
+        border: none;
+        &::placeholder {
+            font-family: Spartan-Bold;
+        }
+    }
+}

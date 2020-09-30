@@ -1,6 +1,6 @@
 .container {
     margin: 0 auto;
-    max-width: rem(1110px);
+    width: rem(1110px);
     @include for-narrow-layout {
         max-width: rem(327px);
     }
