@@ -1,7 +1,7 @@
 [
     {
-        "id": "r3Kw24",
-        "img": "../assets/101.png",
+        "_id": "r3Kw24",
+        "img": "../assets/img/101.png",
         "comp": "Photosnap",
         "isNew": true,
         "isFeatured": true,
