@@ -1,9 +1,6 @@
 .container {
     margin: 0 auto;
     max-width: $break-wide;
-    @include for-med-layout {
-        max-width: $break-med;
-    }
     @include for-narrow-layout {
         max-width: $break-narrow;
     }
